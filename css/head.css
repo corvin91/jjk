@@ -1,0 +1,103 @@
+body{
+    background-color: #101220f4;
+
+}
+.header{
+    padding: 10px 0;
+    background-color: #101220;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.header__link{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.header__link::after{
+    background-image: url("./images/arrow.png");
+    width: 31px;
+    height: 31px;
+    display: block;
+    content: "";
+    transition: 0.5s ease-in-out;
+}
+.header__dropdown{
+    display: none;
+    flex-direction: column;
+    gap: 13px;
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    width: 100px;
+    padding: 11px;
+    background-color: #232028;
+    border-radius: 10px;
+   box-shadow:  0px 5px 15px white;
+}
+.header__dropdown-link{
+    color: #fff;
+}
+.header__item:hover .header__link::after{
+    transform: rotate(180deg);
+    
+    
+}
+.header__item:hover .header__dropdown{
+    display: flex;
+    transition: 1s ease-in-out;
+}
+.header__dropwond-menu{
+    width: 78px;
+    padding: 5px;
+    background-color: #101220;
+    text-align: center;
+    border-radius: 20px;
+}
+.header__dropdown-link{
+    font-size: 10px;
+}
+.header__dropwond-menu:hover{
+    background-color: #BFAFF2;
+}
+.header__dropwond-menu:hover .header__dropdown-link{
+    color: #000;
+}
+.header__btn{
+    width: 175px;
+    background-color:hsla(230, 33%, 7%, 0.618);
+    padding: 10px 0;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #fff;
+    transition: 0.5s ease-in-out;
+    font-weight: 700;
+}
+.header__btn:hover{
+    background-color: #BFAFF2;
+    color: ;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 1px 1px;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header__right-link{
+    color: #fff;
+}

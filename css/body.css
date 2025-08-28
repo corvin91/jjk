@@ -1,0 +1,48 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 185px;
+    padding-bottom: 116px;
+}
+.personaj{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 81px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 24px;
+}
+.body-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.body-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(263, 11%, 14%, 1);
+    width: 325px;
+    height: 240px;
+    border-radius: 32px;
+    color: hsla(0, 0%, 100%, 1);
+}
+.body-text p{
+    font-size: 14px;
+}
+.body-text h1{
+    font-family: Outfit;
+font-weight: 400;
+font-style: Regular;
+font-size: 32px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 14px;
+
+}

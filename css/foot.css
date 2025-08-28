@@ -1,0 +1,16 @@
+.trafalag{
+    background-color: hsl(230, 33%, 7%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.trafalag-h1{
+    color: white;
+    gap: 30px;
+    display: flex;
+}
+footer{
+    background-color: hsl(230, 33%, 7%);
+}

@@ -1,0 +1,17 @@
+@import url("./css/head.css");
+@import url("./css/body.css");
+@import url("./css/foot.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Rubik", sans-serif;
+}
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
